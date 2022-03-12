@@ -1,0 +1,88 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #0e121d;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.card {
+   width: 60vw;
+   text-align: center;
+   background-color: #fff;
+   color: #0e121d;
+   padding: 10px 0px ;
+   border-radius: 10px;
+   object-fit: cover;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .card {
+        width: 90vw;
+    }  
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: -40px;
+}
+.card-img .img {
+    padding: 0px;
+    margin: 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px 30px;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.job {
+    font-size: 1.5rem;
+}
+
+.text {
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.btn {
+    outline: none;
+    background-color: #27246e;
+    padding: 10px 40px;
+    font-size: 1rem;
+    color: #fff;
+    border: 0px;
+    margin: 1px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #322dc5;
+}
+
